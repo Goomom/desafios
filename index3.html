@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive JS</title>
+  <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">⚙ InteractJS</div>
+
+  <nav>
+    <a href="#">Features</a>
+    <a href="#">Demo</a>
+    <a href="#">Contact</a>
+    <button>Get Started</button>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Practice JavaScript <br><span>With Interactive Elements</span></h1>
+  <p>
+    A simple landing page featuring real JavaScript interactions,
+    HTML structure and CSS animations.
+  </p>
+
+  <div class="hero-buttons">
+    <button class="primary">Try Interactive Demo</button>
+    <button class="secondary">View Features</button>
+  </div>
+</section>
+
+<section class="features">
+  <h2>Interactive Features</h2>
+  <p>Explore various JavaScript interactions and CSS animations</p>
+
+  <div class="cards">
+    <div class="card">
+      <h3>JavaScript Logic</h3>
+      <p>Counter functionality, event handlers and state management.</p>
+    </div>
+
+    <div class="card">
+      <h3>CSS Animations</h3>
+      <p>Smooth transitions, hover effects and modern design.</p>
+    </div>
+
+    <div class="card">
+      <h3>Form Validation</h3>
+      <p>Real-time input validation with helpful error messages.</p>
+    </div>
+  </div>
+</section>
+
+<section class="counter-section">
+  <h2>Try It Yourself</h2>
+  <p>Click the buttons and watch the counter respond instantly</p>
+
+  <div class="counter-box">
+    <h3>Interactive Counter</h3>
+    <span id="contador">0</span>
+
+    <div class="buttons">
+      <button onclick="diminuir()">- Decrease</button>
+      <button onclick="resetar()">Reset</button>
+      <button onclick="aumentar()">+ Increase</button>
+    </div>
+  </div>
+</section>
+
+<section class="contact">
+  <div class="form-box">
+    <h2>Get In Touch</h2>
+    <p>Send us a message and we'll respond shortly.</p>
+
+    <input type="text" placeholder="Your Name">
+    <input type="email" placeholder="your.email@example.com">
+    <textarea placeholder="Your message..."></textarea>
+
+    <button>Send Message</button>
+  </div>
+</section>
+
+<footer>
+  <p>Built for practicing JavaScript, HTML and CSS interactions</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
